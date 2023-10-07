@@ -17,7 +17,7 @@ pipeline {
             steps {
                 sh'''
                     terraform plan
-                    ls-ltr
+                    ls -ltr
                     pwd
                 '''
             }
