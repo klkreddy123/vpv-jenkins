@@ -6,6 +6,8 @@ pipeline {
             steps {
                 sh '''
                     terraform init
+                    pwd
+                    ls -ltr
                 '''
             }
         }
@@ -13,6 +15,8 @@ pipeline {
             steps {
                 sh'''
                     terraform plan
+                    ls-ltr
+                    pwd
                 '''
             }
         }
