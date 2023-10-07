@@ -22,6 +22,7 @@ pipeline {
                     terraform plan
                     ls -ltr
                     pwd
+                    sh 'printenv'
                 '''
             }
         }
